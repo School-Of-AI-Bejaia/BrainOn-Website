@@ -1,0 +1,591 @@
+@font-face{
+    font-family: changa_semiBold;
+    src: url("./font/Changa-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("./font/Poppins-SemiBold.ttf");
+}
+@font-face {
+    
+    font-family: changa ;
+    src: url("./font/Changa-VariableFont_wght.ttf");
+  }
+
+body{ 
+    width: 1350px;
+    background-image:url("./img/background\ 1.png");
+}
+.navBar {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+
+  li a {
+    display: block;
+    color: #0C2E5A;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color :#F39F3F;
+  } 
+
+  li {
+    padding-left: 50px;
+    font-family: changa ;
+    font-size: 20px;
+    font-weight :bold;
+   
+  
+  }
+
+  .form {
+    font-family: changa ;
+    font-weight: bold ;
+    font-size: 20px;
+    background-color :#F39F3F;
+    color: #0C2E5A;
+    width: 120px;
+    border-color: transparent;
+    border-radius: 40px;
+  }
+  
+  .button {
+    padding-left: 50px;
+  }
+
+  
+  .button a  :hover {
+    transform: scale(1.2);    
+
+  }
+
+
+  .textt {
+    font-family: poppins;
+    font-size: 30px;
+   text-align: center;
+   color: #0C2E5A;
+  }
+
+
+  .bigLogo {
+    display: flex;
+    justify-content: center;
+    
+       
+  }
+
+
+  .reg {
+    border-color: #37A0FB;
+    border-style: dashed;
+    border-width: 10px;
+    width: 250px;
+    height: 80px;
+    font-family: changa_semiBold ;
+    
+    font-size: 28px;
+    color: #0C2E5A;
+  }
+  .register{
+    padding-left: 550px;
+    display: flex;
+  }
+  
+  .pic{
+    padding-left: 245px;
+    padding-top: -10px;
+  }
+  .pic2 {
+    padding-left: 200px;
+    padding-top: 50px;
+  }
+
+  .bigTitle {
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .bigTitle p {
+    margin: 4px;
+   
+    
+  }
+.one{
+    text-align: center;
+    font-family: changa_semiBold;
+    font-size: 55px;
+    text-shadow: 2px 0 #F39F3F, -2px 0 #F39F3F, 0 2px #F39F3F, 0 -2px #F39F3F,
+    1px 1px #F39F3F, -1px -1px #F39F3F, 1px -1px #F39F3F, -1px 1px #F39F3F;
+    color: #37A0FB;
+
+}
+
+.two{
+    text-align: center;
+    font-family: changa_semiBold;
+    font-size: 55px;
+    text-shadow: 2px 0 #37A0FB, -2px 0 #37A0FB, 0 2px #37A0FB, 0 -2px #37A0FB,
+    1px 1px #37A0FB, -1px -1px #37A0FB, 1px -1px #37A0FB, -1px 1px #37A0FB;
+    color: #F39F3F;
+}
+
+.detail {
+    
+
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.detail p{
+    font-size: 32px;
+    text-align: center;
+    font-family: poppins;
+}
+
+mark{
+    background-color: transparent;
+    color: #F39F3F;
+}
+
+.lamp{
+    justify-content: center;
+    display: flex;
+}
+
+.mentor1{
+width: fit-content;
+height: fit-content;
+padding-right: 25px;
+margin: 0 auto; 
+
+
+
+
+  
+}
+#left{
+  padding-left: 80px;
+}
+.image{
+  display: flex;
+
+}
+
+.decor{
+  width: 60px;
+  height: 60px;
+  margin-top: -40px;
+  margin-right: -15px;
+}
+
+.big{
+    padding :5px;
+    width: 180px;
+    height: 180px;
+    border-color: #37A0FB;
+    border-style: dashed;
+    border-width: 10px;
+}
+
+#speaker{
+  border-color: #F39F3F;
+}
+
+.profilePic{
+  width: 100%;
+  height: 100%;
+  }
+
+  .info{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 20px;
+    font-family: changa_semiBold;
+    font-size: 25px;
+  }
+
+  .info2 {
+    margin-top: 15px;    
+    text-align: center;
+    font-family: changa_semiBold;
+    font-size: 25px;
+  }
+
+  #amaniDomain{
+    margin-left: 35px;
+  }
+
+  #amaniName{
+    margin-left: 25px;
+
+  }
+
+
+  #IyadName{
+    margin-left: 50px;
+  }
+
+  #IyadDomain{
+    margin-left: 50px;
+  }
+
+  #IyadDomain2{
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+
+
+  #leftMentor{
+   margin-right:-0.1px;
+   padding-right: 50px;
+  }
+
+  #rightMentor{
+    margin-left:-0.1px;
+    padding-left: 100px;
+   }
+
+
+
+ #AbdName{
+  margin-left: -90px;
+ }  
+
+ #AbdDomain{
+  margin-left: -80px;
+ }
+
+ #AbdDomain1{
+  margin-left: -80px;
+  margin-top: -10px;
+
+ }
+
+ #Abd{
+  margin-left: -50px;
+ }
+
+  
+
+
+
+  
+
+  #SpInfo{
+    margin-right: 30px;
+    margin-left: 0px;
+    
+    
+  }
+  #mouhName { 
+    margin-left: -50px;
+
+
+  }
+
+ #AbdName2{
+  margin-left: -90px;
+ }
+
+ #last{
+   padding-left: 100px;
+ }
+  
+
+
+
+  .mentor23{ 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .decor2{
+    width: 50px;
+    height: 40px;
+    margin-top: -23px;
+    margin-left: -13px;
+  }
+
+  .decor3{
+    
+      width: 60px;
+      height: 60px;
+      margin-top: -40px;
+      margin-left: -15px;
+    }
+
+
+    #mouh{
+      margin-left: -1px;
+      padding-left: 150px;
+    
+    }
+
+    #Mehdi{
+      margin-right: -10px;
+      padding-right: 60px;
+    }
+
+    #MehdiName{
+      margin-left: -100px;
+    }
+
+    #MouhDomain{
+      margin-left: -45px;
+     }
+    
+     #MouhDomain1{
+      margin-left: -45px;
+      margin-top: -10px;
+    
+     }
+
+
+
+
+
+
+  
+  #AgendaSec{   
+    margin: 0 auto; 
+  
+  padding-top: 50px;
+  }
+  .excited{
+    font-family: poppins;
+    font-size: 32px;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto; 
+    padding-bottom: 50px;
+  }
+  .s{
+    color: #37A0FB;
+  }
+
+  #Agenda{
+    border-color: #F39F3F;
+  }
+
+
+
+#SponsorsSec{
+
+  padding-top: 50px;
+}  
+  .thanks{
+    text-align: center;
+    font-family: changa_semiBold ;
+    font-size: 32px;
+    width: 800px;
+    margin: 0 auto; 
+  }
+
+  .Sponsors{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+  }
+
+
+  
+
+.logo{
+  margin-top: -20px;
+  width :90px;
+  height: 90px;
+
+}
+
+.theLogo{
+  width: 100%;
+  height: 100%;
+}
+
+.registerhover {
+  font-size: 25px;
+  width: 250px;
+  height: 60px;
+  
+  line-height: 2em;
+  font-family: changa_semiBold; 
+  text-transform: capitalize;
+  position: relative;
+  transition: 0.5s;
+  border-color: #37A0FB;
+    border-style: dashed;
+    border-width: 5px;
+}
+.registerhover1 {
+  font-size: 25px;
+  width: 250px;
+  height: 60px;
+  
+  line-height: 2em;
+  font-family: changa_semiBold; 
+  text-transform: capitalize;
+  position: relative;
+  transition: 0.5s;
+  border-color: #F39F3F;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+#reg {
+ 
+  text-align: center;
+  
+}
+.registerhover::before,
+.registerhover::after {
+  content: '';
+  position: absolute;
+  width: 0.6em;
+  height: 0.6em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+  top: calc(50% - 0.6em / 2);
+}
+
+.registerhover1::before,
+.registerhover1::after {
+  content: '';
+  position: absolute;
+  width: 0.6em;
+  height: 0.6em;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+  top: calc(50% - 0.6em / 2);
+}
+
+.registerhover::before {left: 0; z-index: -1;}
+.registerhover::after {right: 0; z-index: -2;}
+
+.registerhover1::before {left: 0; z-index: -1;}
+.registerhover1::after {right: 0; z-index: -2;}
+
+.registerhover:hover {
+ color: #0C2E5A;
+}
+
+.registerhover1:hover {
+  color: #0C2E5A;
+ }
+
+.registerhover:hover::before,
+.registerhover:hover::after {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: dodgerblue;
+}
+
+
+.registerhover1:hover::before,
+.registerhover1:hover::after {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: #f89a2f;
+}
+
+.registerhover:hover::before {
+  top: 0;
+}
+
+.registerhover1:hover::before {
+  top: 0;
+}
+
+.registerhover:hover::after {
+  right: -0.4em;
+  filter: brightness(0.8);
+}
+.registerhover1:hover::after {
+  right: -0.4em;
+  filter: brightness(0.8);
+}
+
+.click a {
+  text-decoration: none;
+  color: #0C2E5A
+}
+
+
+
+.SOAI{
+  
+  padding-top: 100px;
+ 
+ 
+}
+
+.mediaa{ 
+   width: 120px;
+   height: 120px;
+   
+
+}
+
+.mediaa img {
+  width: 100%;
+  height: 100%;
+}
+.social {
+  padding-top: 50px;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 300px;  
+  padding-right: 350px;
+  background-color: #B0CBE8;
+}
+
+.sentence{
+  color: #5599D2;
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: changa_semiBold;
+  text-align: center;
+  background-color: #B0CBE8;
+
+}
+
+.club{
+  color: #5599D2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: changa_semiBold;
+  text-align: center;
+  background-color: #B0CBE8;
+  
+}
+
+
+
+
+  
