@@ -591,3 +591,15 @@ margin: 0 auto;
 }
 
   
+#display{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.register{
+  
+  padding-left: 150px;
+  padding-right: 150px;
+ }
