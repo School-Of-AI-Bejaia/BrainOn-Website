@@ -596,10 +596,6 @@ margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
+    padding-left: 150px;
+    padding-right: 150px;
 }
-
-.register{
-  
-  padding-left: 150px;
-  padding-right: 150px;
- }
