@@ -1,2 +1,2 @@
 # BrainOn 
-### SOAI hackathon's website
+### SOAI ideathon's website
